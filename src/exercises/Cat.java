@@ -32,11 +32,17 @@ public class Cat {
 
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
+		
 
 		// 1. Make the Cat meow
-		
+		Cat c1 = new Cat("Sylvester");
 		// 2. Get the Cat to print it's name
-
+		c1.meow();
+		c1.printName();
+		for (int i = 8; i >= 0 ; i--) {
+			c1.kill();
+		}
+		
 		// 3. Kill the Cat!
 
 	}
